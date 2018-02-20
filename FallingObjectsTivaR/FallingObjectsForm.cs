@@ -28,5 +28,17 @@ namespace FallingObjectsTivaR
         {
 
         }
+
+        private void btnGetNumber_Click(object sender, EventArgs e)
+        {
+            double usersAnswer;
+
+            usersAnswer = double.Parse(txtNumberBox.Text);
+
+            lblDisplayedAnswer.Text = Convert.ToString(100 - 0.5 * 9.81 * (Math.Pow(usersAnswer, 2)));
+
+
+
+        }
     }
 }

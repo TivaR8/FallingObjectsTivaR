@@ -37,11 +37,11 @@
             // lblQuestion
             // 
             this.lblQuestion.AutoSize = true;
-            this.lblQuestion.Location = new System.Drawing.Point(61, 39);
+            this.lblQuestion.Location = new System.Drawing.Point(34, 37);
             this.lblQuestion.Name = "lblQuestion";
-            this.lblQuestion.Size = new System.Drawing.Size(49, 13);
+            this.lblQuestion.Size = new System.Drawing.Size(238, 13);
             this.lblQuestion.TabIndex = 0;
-            this.lblQuestion.Text = "Question";
+            this.lblQuestion.Text = "How long has it been since you have dropped it?";
             // 
             // txtNumberBox
             // 
@@ -68,6 +68,7 @@
             this.btnGetNumber.TabIndex = 3;
             this.btnGetNumber.Text = "Get Number";
             this.btnGetNumber.UseVisualStyleBackColor = true;
+            this.btnGetNumber.Click += new System.EventHandler(this.btnGetNumber_Click);
             // 
             // frmFallingObjects
             // 
