@@ -13,7 +13,7 @@ using System.Windows.Forms;
  * Created on: 20-02-2018
  * Created for: ICS3U Programming
  * Assignment #2 - Falling Objects
- * This program...
+ * This program Calculates how far an object has fallen after
 */
 namespace FallingObjectsTivaR
 {

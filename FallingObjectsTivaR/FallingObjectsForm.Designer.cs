@@ -45,7 +45,7 @@
             // 
             // txtNumberBox
             // 
-            this.txtNumberBox.Location = new System.Drawing.Point(64, 78);
+            this.txtNumberBox.Location = new System.Drawing.Point(64, 114);
             this.txtNumberBox.Name = "txtNumberBox";
             this.txtNumberBox.Size = new System.Drawing.Size(100, 20);
             this.txtNumberBox.TabIndex = 1;
@@ -54,7 +54,8 @@
             // lblDisplayedAnswer
             // 
             this.lblDisplayedAnswer.AutoSize = true;
-            this.lblDisplayedAnswer.Location = new System.Drawing.Point(61, 175);
+            this.lblDisplayedAnswer.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.lblDisplayedAnswer.Location = new System.Drawing.Point(74, 205);
             this.lblDisplayedAnswer.Name = "lblDisplayedAnswer";
             this.lblDisplayedAnswer.Size = new System.Drawing.Size(42, 13);
             this.lblDisplayedAnswer.TabIndex = 2;
@@ -62,7 +63,7 @@
             // 
             // btnGetNumber
             // 
-            this.btnGetNumber.Location = new System.Drawing.Point(64, 119);
+            this.btnGetNumber.Location = new System.Drawing.Point(64, 162);
             this.btnGetNumber.Name = "btnGetNumber";
             this.btnGetNumber.Size = new System.Drawing.Size(75, 23);
             this.btnGetNumber.TabIndex = 3;
@@ -74,6 +75,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
             this.ClientSize = new System.Drawing.Size(284, 261);
             this.Controls.Add(this.btnGetNumber);
             this.Controls.Add(this.lblDisplayedAnswer);
