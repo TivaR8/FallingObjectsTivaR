@@ -8,6 +8,13 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+/*
+ * Created by: Tiva Rait
+ * Created on: 20-02-2018
+ * Created for: ICS3U Programming
+ * Assignment #2 - Falling Objects
+ * This program...
+*/
 namespace FallingObjectsTivaR
 {
     public partial class frmFallingObjects : Form
